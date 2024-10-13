@@ -1,55 +1,29 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZAWOXHOOK</title>
-
-    <style> body {
-        background-color: darkslateblue;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        overflow-x: hidden;
-    }
-
-    .gay {
-        
-        width: 85%;
-        height: 90px;
-        align-items: center;
-    }
-    @property --angle {
-            syntax: "<angle>";
-            initial-value: 0deg;
-            inherits: false;
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>zawox</title>
+    </head>
+    <style>
+        body {
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
         }
-    .gay::after, .gay::before {
-        content: '';
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            background-image: conic-gradient(from var(--angle), rgb(255, 69, 109), rgb(252, 223, 94), rgb(0, 140, 255), rgb(255, 0, 149), rgb(255, 69, 69));
-            top: 50%;
-            left: 50%;
-            translate: -50% -50%;
-            z-index: -1;
-            padding: 2px;
-            border-radius: 15px;
-            animation: 1ms spin linear infinite;
-    }
 
-    @keyframes spin {
-            from {
-                --angle: 0deg;
-            }
-            to {
-                --angle: 360deg
-            }
+        .image-trollface-img {
+            display:block;
+            width: 512;
+            height: 512;
+            margin: 0;
+            padding: 0;
         }
     </style>
-</head>
-<body>
-    <h1 align="center">ZAWOXHOOK</h1>
-    <div class="gay">
-        <h1>WELCOME TO MY SITE =)</h1>
-    </div>
-</body>
+    <body>
+        <h1>Work in progress</h1>
+        <div class="main">
+            <p1></p1>
+        </div>
+        <div class="image-trollface">
+            <img class="image-trollface-img" src="./trollface.png" alt=none>
+        </div>
+    </body>
 </html>
